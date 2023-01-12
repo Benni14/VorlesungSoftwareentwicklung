@@ -1,0 +1,14 @@
+package scanner;
+
+import java.util.Scanner;
+
+public class Myscanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner myScan = new Scanner(System.in);
+		String firstText = myScan.nextLine();
+		firstText = firstText + firstText;
+		System.out.println(firstText);
+	}
+}
